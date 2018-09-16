@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package echo;
+
+// The message used for echo requests and responses.
+message EchoMessage {
+  string text = 1;
+  int32 message_id = 2;
+}
