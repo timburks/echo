@@ -6,4 +6,5 @@ package echo;
 message EchoMessage {
   string text = 1;
   int32 message_id = 2;
+  int32 sample_100_value = 3;
 }
